@@ -3,14 +3,19 @@
     header("Last-Modified: " . gmdate( "D, d M Y H:i:s") . " GMT");
     header("Cache-Control: no-cache, must-revalidate");
     header("Pragma: no-cache");
-    echo '<span style="display: none;">', date('H:i:s'), '</span>';
 ?>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/header.php';?>
 
 <main>
 
-<div class="ripples"></div>
+    <section class="ripples"></section>
+
+    <br>
+    <hr>
+    <br>
+    
+    <div>содержание</div>
 
 </main>
 
