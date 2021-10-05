@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.ripples {
+    background-image: url('/img/ripples.jpg');
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
